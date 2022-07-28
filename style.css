@@ -1,0 +1,183 @@
+/* css for signin & signup pages */
+
+html, body {
+    margin:0px;
+    height:100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.right{
+    margin-left: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 169.19px;
+    border-top: 2px solid #000000;
+    opacity: 25%;
+    border-radius: 7px 7px 7px 7px;
+}
+
+button{
+    margin: auto;
+    background-color: transparent;
+    width: 350px;
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#googleLogo{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#welcome{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#sub-welcome{
+    font-size: 15px;
+    padding-bottom: 48px;
+}
+
+.formfields{
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#email{
+    margin-bottom: 40px;
+}
+
+#password{
+    margin-bottom: 20px;
+
+}
+
+#forgotPassword{
+    margin-left: 50%;
+    color: #000000;
+   
+}
+
+.button{
+    background-color: #5FA8D3;
+    border-color: transparent;
+    height: 55px;
+    width: 240px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+#orSpanp {
+    width: 60%; 
+    text-align: center; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25); 
+    line-height: 0.1em;
+    margin: 45px 155px 45px; 
+ } 
+ 
+#orSpan { 
+     background:#fff; 
+     padding:0 80px; 
+}
+
+#signupSpan{
+    color: #5FA8D3;
+    font-weight: 600;
+}
+
+
+#signupP{
+    font-weight: 300;
+}
+
+#welcomeSignup{
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#sub-welcomeSignup{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#firstname, #lastname, #username, #emailSignup, #password{
+    margin-bottom: 18px;
+}
+
+#confirmPassword{
+    margin-bottom: 13px;
+}
+
+
+.formfieldsSignup{
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+
+.signupbutton{
+        background-color: #5FA8D3;
+        border-color: transparent;
+        height: 45px;
+        width: 200px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 20px;
+}
+
+#orSpanp-signup {
+    width: 60%; 
+    text-align: center; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25); 
+    line-height: 0.1em;
+    margin: 25px 155px 30px; 
+ } 
+ 
+#orSpan-signup { 
+     background:#fff; 
+     padding:0 80px; 
+}
+
+#googleSignup{
+        margin: auto;
+        background-color: transparent;
+        width: 350px;
+        height: 55px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    
+}
