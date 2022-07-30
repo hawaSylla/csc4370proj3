@@ -19,27 +19,31 @@
           <img src="images/logo.png">
             <div id="logoType">estate.</div>
           <ul>
-            <li><a href="main.html">Home</a></li>
+            <li><a href="main.php">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <form action="signin.html">
+          <form action="signin.php">
             <input class="signinButton" type="submit" value="Sign In" />
           </form>
         </div>
 
         <div id="intro-container">
             <div id="left">
+              <div class="fade-in-text">
                 <div id="openingStatement">Let's find your<br>dream 
                     <span id="welcomeSpan">home</span>.
                 </div>
+              </div>
                 <div id="subStatement">
                     Estate will help you buy or sell your 
                     home with ease and comfort.
                 </div>
             </div>
             <div id="right">
+              <div class="rightimg">
                 <img src="images/mainHouseWide.png" alt="mainHouse">
+            </div>
             </div>
         </div>
 

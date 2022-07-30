@@ -22,19 +22,19 @@
       <div id="sub-welcome">Please enter your credentials</div>
 
       <div>
-        <form action="">
+        <form action="dashboard.php" method="post">
           <input
             class="formfields"
             type="text"
-            name="email"
-            id="email"
-            placeholder="Email"
+            name="username"
+            id="username"
+            placeholder="Username"
             required
           />
           <br />
           <input
             class="formfields"
-            type="text"
+            type ="password"
             name="password"
             id="password"
             placeholder="Password"
@@ -56,7 +56,7 @@
 
       <p id="signupP">
         Don't have an account?
-        <a href="signup.html">
+        <a href="signup.php">
           <span id="signupSpan">Sign up</span>
         </a>
       </p>
