@@ -56,9 +56,11 @@
         <li><a href="#">Contact</a></li>
       </ul>
       <div id="logoutlink"><a href="signin.php">Log Out</a></div>
-      
-        <div id="wishlistlink"><a href="wishlistpg.php">Wish List</a></div>
+      <div id="wishlist-menu">
+        <div id="wishlistlink">Wish List</div>
         <img id="wishlistIcon" src="images/heartIcon.png" alt="heartIcon" />
+        <nav id="wl-menu" class="hidden"></nav>
+      </div>
     </div>
   </div>
 
