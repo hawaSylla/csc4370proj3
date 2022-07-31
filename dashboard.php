@@ -14,7 +14,7 @@
 
 <body>
 
-  
+
 
   <?php
   $username = filter_input(INPUT_POST, "username");
@@ -56,9 +56,9 @@
         <li><a href="#">Contact</a></li>
       </ul>
       <div id="logoutlink"><a href="signin.php">Log Out</a></div>
-      
-        <div id="wishlistlink"><a href="wishlistpg.php">Wish List</a></div>
-        <img id="wishlistIcon" src="images/heartIcon.png" alt="heartIcon" />
+
+      <div id="wishlistlink"><a href="wishlistpg.php">Wish List</a></div>
+      <img id="wishlistIcon" src="images/heartIcon.png" alt="heartIcon" />
     </div>
   </div>
 
@@ -105,6 +105,29 @@
         <option value="homesForYou">Sort: Square Feet</option>
       </select>
     </form>
+
+    <ul class="card-wrapper">
+      <li class="card">
+        <img src='https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80' alt=''>
+        <h3><a href="">2873 Silverwood Dr, Decatur, GA 3003</a></h3>
+        <p>$150000</p>
+        <p>3 bed/2 bath</p>
+      </li>
+      <li class="card">
+        <img src='https://www.mydomaine.com/thmb/sEVlAsVoifoG-ZLxsnWk0q0ZVrQ=/3409x3409/filters:fill(auto,1)/binary-4--583f06853df78c6f6a9e0b7a.jpeg' alt=''>
+        <h3><a href="">21825 Lovington Ct, Hampton, GA 30228</a></h3>
+        <p>$250000</p>
+        <p>3 bed/2 bath</p>
+      </li>
+      <li class="card">
+        <img src='https://images.familyhomeplans.com/cdn-cgi/image/fit=scale-down,quality=85/plans/41438/41438-b580.jpg' alt=''>
+        <h3><a href="">Sparceway Dr, Hampton, GA 30228</a></h3>
+        <p>$320000</p>
+        <p>3 bed/3 bath</p>
+      </li>
+    </ul>
+
+
   </div>
 
   <script>
