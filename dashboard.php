@@ -112,18 +112,23 @@
         <h3><a href="">2873 Silverwood Dr, Decatur, GA 3003</a></h3>
         <p>$150000</p>
         <p>3 bed/2 bath</p>
+        <p style="font-weight:bold">add to wishlist</p>
       </li>
       <li class="card">
         <img src='https://www.mydomaine.com/thmb/sEVlAsVoifoG-ZLxsnWk0q0ZVrQ=/3409x3409/filters:fill(auto,1)/binary-4--583f06853df78c6f6a9e0b7a.jpeg' alt=''>
         <h3><a href="">21825 Lovington Ct, Hampton, GA 30228</a></h3>
         <p>$250000</p>
         <p>3 bed/2 bath</p>
+        <p style="font-weight:bold">add to wishlist</p>
       </li>
       <li class="card">
         <img src='https://images.familyhomeplans.com/cdn-cgi/image/fit=scale-down,quality=85/plans/41438/41438-b580.jpg' alt=''>
         <h3><a href="">Sparceway Dr, Hampton, GA 30228</a></h3>
         <p>$320000</p>
         <p>3 bed/3 bath</p>
+        <p style="font-weight:bold">add to wishlist</p>
+
+
       </li>
     </ul>
 
