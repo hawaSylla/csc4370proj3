@@ -22,7 +22,8 @@
       <div id="sub-welcomeSignup">Let's get started.</div>
 
       <div>
-        <form action="">
+        <!-- <form action="proc-sign.php" method="post"> -->
+        <form action="dashboard.php" method="post">
           <input
             class="formfieldsSignup"
             type="text"
@@ -59,7 +60,7 @@
           />
           <input
             class="formfieldsSignup"
-            type="text"
+            type="password"
             name="password"
             id="password"
             placeholder="Password"
@@ -67,7 +68,7 @@
           />
           <input
             class="formfieldsSignup"
-            type="text"
+            type ="password"
             name="confirmPassword"
             id="confirmPassword"
             placeholder="Confirm Password"
@@ -98,7 +99,7 @@
 
       <p id="signupP">
         Already have an account?
-        <a href="signin.html">
+        <a href="signin.php">
           <span id="signupSpan">Sign in</span>
         </a>
       </p>
